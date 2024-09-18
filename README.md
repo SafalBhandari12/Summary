@@ -1,1 +1,1 @@
-# Summary
+npm install @eslint/js@9.10.0 @fortawesome/fontawesome-svg-core@6.6.0 @fortawesome/free-solid-svg-icons@6.6.0 @fortawesome/react-fontawesome@0.2.2 @mui/x-charts@7.17.0 @types/react-dom@18.3.0 @types/react@18.3.7 @vitejs/plugin-react@4.3.1 autoprefixer@10.4.20 chart.js@4.4.4 eslint-plugin-react-hooks@5.1.0-rc-fb9a90fa48-20240614 eslint-plugin-react-refresh@0.4.12 eslint-plugin-react@7.36.1 eslint@9.10.0 globals@15.9.0 postcss@8.4.47 react-chartjs-2@5.2.0 recharts@2.12.7 tailwindcss@3.4.11 vite@5.4.6
