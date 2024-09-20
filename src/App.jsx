@@ -1,17 +1,16 @@
-import React from "react";
-import Profile from "./Profile";
-import PostSection from "./PostSection";
-import NewsAndPuzzles from "./NewsAndPuzzles";
-import MessageButton from "./MessageButton";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SignIn from './Pages/SignIn';
+import Dashboard from './Pages/Dashboard';
 
 const App = () => {
   return (
-    <div className='flex justify-center p-4 bg-gray-200'>
-      <Profile />
-      <PostSection />
-      <NewsAndPuzzles />
-      <MessageButton />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<SignIn />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </Router>
   );
 };
 
