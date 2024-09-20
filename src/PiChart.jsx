@@ -11,7 +11,7 @@ const PieChart = () => {
     labels: ["Journal", "Conference", "Book", "Article"],
     datasets: [
       {
-        data: [40, 30, 20, 10], // Percentage values for each label
+        data: [5, 6, 23, 75], // Percentage values for each label
         backgroundColor: [
           "rgba(75, 192, 192, 0.6)", // Color for Journal
           "rgba(255, 99, 132, 0.6)", // Color for Conference

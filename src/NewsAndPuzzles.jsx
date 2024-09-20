@@ -2,13 +2,13 @@ import React from "react";
 import CitationsGraph from "./Graphs/CitationsGraph";
 import PublicationGraph from "./Graphs/PublicationsGraph";
 import PieChart from "./PiChart";
-import piChartGraph from "./Graphs/piChartGraph.png";
+import piChartGraph from "./Graphs/newgraphpi.jpeg";
 
 const NewsAndPuzzles = () => {
   const data = {
     publicationsDataGoogle: {
-      years: ["2022", "2023", "2024"],
-      publications: [2, 4, 8],
+      years: ["2018", "2021", "2024"],
+      publications: [14, 13, 3],
     },
     publicationsDataScopus: {
       years: ["2022", "2023", "2024"],
@@ -38,27 +38,27 @@ const NewsAndPuzzles = () => {
       <ul className='text-sm text-gray-600 mt-2'>
         <li className='flex items-center mt-2'>
           <i class='fa-solid fa-user'></i>
-          <span className='text-sm text-gray-700 ml-2'>Prashant Upadhyay - Natural Lan...</span>
+          <span className='text-sm text-gray-700 ml-2'>Noam Shazeer</span>
         </li>
         <li className='flex items-center mt-2'>
           <i class='fa-solid fa-user'></i>
-          <span className='text-sm text-gray-700 ml-2'>Farhan Khan - Deep Learning</span>
+          <span className='text-sm text-gray-700 ml-2'>Niki Parmar</span>
         </li>
         <li className='flex items-center mt-2'>
           <i class='fa-solid fa-user'></i>
-          <span className='text-sm text-gray-700 ml-2'>Sulav Bhandari</span>
+          <span className='text-sm text-gray-700 ml-2'>Jakob Uszkoreit</span>
         </li>
         <li className='flex items-center mt-2'>
           <i class='fa-solid fa-user'></i>
-          <span className='text-sm text-gray-700 ml-2'>John Shanks</span>
+          <span className='text-sm text-gray-700 ml-2'>Llion Jones</span>
         </li>
         <li className='flex items-center mt-2'>
           <i class='fa-solid fa-user'></i>
-          <span className='text-sm text-gray-700 ml-2'>Tom Hanks</span>
+          <span className='text-sm text-gray-700 ml-2'>Peter Shaw</span>
         </li>
         <li className='flex items-center mt-2'>
           <i class='fa-solid fa-user'></i>
-          <span className='text-sm text-gray-700 ml-2'>Upendra Upadhyay</span>
+          <span className='text-sm text-gray-700 ml-2'>Irwan Bello</span>
         </li>
       </ul>
     </div>
